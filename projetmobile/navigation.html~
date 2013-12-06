@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <!-- Ici je met le wiewport, les feuilles de style et ls ibrairies Jguery Mobile -->
+<title> le shopping à Ouaga </title>
+<!-- mise en place du viewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<!-- lier la feuille de style -->
+<link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css"/>
+<!-- inclure les lib jquery et jquery mobile -->
+<script type="text/javascript" src="libs/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="libs/jquery.mobile-1.3.2.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="pagesecondaire">
+
+<div data-role=navbar>
+<ul>
+	<li><a href="ouaga.html" data-transition="pop">Ougadougou  </a>  </li>
+	<li><a href="bobo.html" data-transition="pop">Bobo-Dioulasso  </a>  </li>
+<li><a href="index.html" data-transition="pop">Accueil  </a>  </li>
+</ul>
+</div>
+
+<div data-role="content">
+	
+	<div data-role="collapsible-set">
+<div data-role="collapsible">
+<h3>Spécialités des boutiques</h3
+<ul>
+	<li><a href="#">Alimentation</a></li>
+<li><a href="#">Habillement bébé et enfants</a></li>
+<li><a href="#">Habillement adultes</a></li>
+<li><a href="#">Meubles</a></li>
+	
+</ul>
+
+        </div>
+</div>
+<div data-role="footer">
+	<!--pied de la page-->
+	<h5> Copyright &copy;</h5>
+	</div>
+</div>
+</body>
+</html>
